@@ -23,7 +23,7 @@ const GLib = imports.gi.GLib;
 const PopupMenu = imports.ui.popupMenu;
 
 
-//Declaring global variables
+//global variables
 let emailLabel, idLabel;
 let window;
 
@@ -32,7 +32,7 @@ const menuItem = new PopupMenu.PopupMenuItem('Item Label',
     {});
 
 /*
-* Declaring a constanst string. This string  contains command line arguments passed to thunderbird
+* Constanst string. This string  contains command line arguments passed to thunderbird
 * It defines the behavior of how thunderbird starts.
 * That is, it starts thunderbird compose window passing with it variables such as email subject, body, and 
 * attachment file - the calender.ics file
